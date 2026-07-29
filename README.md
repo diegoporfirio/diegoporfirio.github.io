@@ -19,8 +19,7 @@ Site oficial do desenvolvedor **Diego Porfirio**, publicado com GitHub Pages.
 
 ## Contato
 
-- E-mail: SEU-EMAIL@exemplo.com
-- Formulário: COLE-AQUI-O-LINK-DO-FORMULARIO
+LinkedIn: https://www.linkedin.com/in/diego-porfirio/
 
 ---
 
