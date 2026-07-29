@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diego Porfirio — WidgetBTC</title>
+<title>Widget BTC</title>
 <meta name="description" content="Desenvolvedor do WidgetBTC, widget de preço do Bitcoin para Android. Contato e suporte.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,10 +72,11 @@
   .feat h3{font-family:"Space Grotesk",sans-serif;font-size:17px;letter-spacing:-.01em;margin-bottom:7px}
   .feat p{font-size:14.5px;color:var(--slate)}
 
-  .contact{display:grid;grid-template-columns:1fr 1fr;gap:2px;background:var(--line);border:1px solid var(--line)}
+  .contact{background:var(--line);border:1px solid var(--line)}
   .card{background:var(--ash);padding:26px 24px}
   .card .lbl{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin-bottom:10px}
-  .card a{color:var(--ink);font-weight:600;text-decoration:none;border-bottom:2px solid var(--amber);font-size:17px;word-break:break-word}
+  .card a{display:inline-flex;align-items:center;gap:9px;color:var(--ink);font-weight:600;text-decoration:none;border-bottom:2px solid var(--amber);font-size:17px;word-break:break-word}
+  .card a svg{flex:none;color:var(--amber)}
   .card a:hover,.card a:focus-visible{color:var(--amber)}
   .card p{font-size:14.5px;color:var(--slate);margin-top:10px}
 
@@ -87,7 +88,7 @@
 
   @media (max-width:760px){
     .hero{grid-template-columns:1fr;gap:38px;padding:52px 0 48px}
-    .feats,.contact{grid-template-columns:1fr}
+    .feats{grid-template-columns:1fr}
     nav a{margin-left:14px}
   }
 </style>
@@ -149,14 +150,12 @@
     <h2>Contato e suporte</h2>
     <div class="contact">
       <div class="card">
-        <p class="lbl">E-mail</p>
-        <a href="mailto:SEU-EMAIL@exemplo.com">SEU-EMAIL@exemplo.com</a>
-        <p>Dúvidas, sugestões ou problemas com o app. Respondo em até 2 dias úteis.</p>
-      </div>
-      <div class="card">
-        <p class="lbl">Formulário</p>
-        <a href="COLE-AQUI-O-LINK-DO-FORMULARIO" target="_blank" rel="noopener">Enviar mensagem</a>
-        <p>Prefere não usar e-mail? Escreva pelo formulário e eu recebo direto.</p>
+        <p class="lbl">LinkedIn</p>
+        <a href="https://www.linkedin.com/in/diego-porfirio/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          Diego Porfirio
+        </a>
+        <p>Dúvidas, sugestões ou problemas com o app? Me chame por lá — costumo responder em até 2 dias úteis.</p>
       </div>
     </div>
   </section>
